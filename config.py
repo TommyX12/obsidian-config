@@ -9,4 +9,5 @@ FILES_TO_COPY = [
     '.obsidian/plugins',
     '.obsidian/snippets',
     '.obsidian/themes',
+    '.obsidian.vimrc',
 ]
