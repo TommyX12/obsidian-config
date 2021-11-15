@@ -215,6 +215,9 @@ nmap <Space>jc :showcalendar
 exmap randomnote obcommand random-note
 nmap <Space>jR :randomnote
 
+exmap inserttemplate obcommand insert-template
+nmap <Space>jt :inserttemplate
+
 " surround
 exmap surroundbrace surround [ ]
 vmap <Space>s[ :surroundbrace
