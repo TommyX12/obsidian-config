@@ -13,8 +13,8 @@ for f in FILES_TO_COPY:
     source = os.path.join(CUR_DIR, f)
     target = os.path.join(REPO_DIR, f)
     os.makedirs(os.path.dirname(target), exist_ok=True)
-    if os.path.isfile(f):
+    if os.path.isfile(source):
         shutil.copy2(source, target)
 
-    elif os.path.isdir(f):
+    elif os.path.isdir(source):
         dir_util.copy_tree(source, target)
