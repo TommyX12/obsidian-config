@@ -1,0 +1,9 @@
+{
+  "baseFontSize": 14,
+  "theme": "moonstone",
+  "translucency": false,
+  "enabledCssSnippets": [
+    "obsidian"
+  ],
+  "cssTheme": "Minimal"
+}

@@ -1,0 +1,11 @@
+{
+  "spellcheck": true,
+  "vimMode": true,
+  "foldHeading": true,
+  "foldIndent": true,
+  "showLineNumber": false,
+  "promptDelete": false,
+  "showFrontmatter": false,
+  "showUnsupportedFiles": true,
+  "strictLineBreaks": false
+}
