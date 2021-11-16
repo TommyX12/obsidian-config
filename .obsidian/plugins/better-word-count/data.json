@@ -7,5 +7,5 @@
   "statusBarQuery": "{word_count} words {character_count} characters",
   "statusBarAltQuery": "{file_count} files {total_word_count} words {total_character_count} characters",
   "countComments": false,
-  "collectStats": true
+  "collectStats": false
 }

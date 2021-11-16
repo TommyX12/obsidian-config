@@ -7,5 +7,6 @@
   "promptDelete": false,
   "showFrontmatter": false,
   "showUnsupportedFiles": true,
-  "strictLineBreaks": false
+  "strictLineBreaks": false,
+  "alwaysUpdateLinks": false
 }
