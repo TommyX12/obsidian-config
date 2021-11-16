@@ -22,6 +22,12 @@ noremap - <C-x>
 vmap + g<C-a>
 vmap _ g<C-x>
 
+" simple folding
+exmap foldall obcommand editor:fold-all
+map Z :foldall
+exmap unfoldall obcommand editor:unfold-all
+map X :unfoldall
+
 " easy window movement
 " TODO
 exmap focustop obcommand editor:focus-top
