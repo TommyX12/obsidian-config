@@ -224,6 +224,9 @@ nmap <Space>jR :randomnote
 exmap inserttemplate obcommand insert-template
 nmap <Space>jt :inserttemplate
 
+exmap dailynotes obcommand daily-notes
+nmap <Space>jT :dailynotes
+
 " surround
 exmap surroundbrace surround [ ]
 vmap <Space>s[ :surroundbrace

@@ -5,13 +5,30 @@
   --font-small: 12px;
   --heading1-color: #660ace;
   --heading1-color-faint: #660ace38;
+  --heading1-color-dark: #340669;
+  --heading1-color-bg: #660ace09;
   --heading2-color: #1493dd;
   --heading2-color-faint: #1493dd38;
+  --heading2-color-dark: #094466;
+  --heading2-color-bg: #1493dd09;
   --heading3-color: #1db178;
   --heading3-color-faint: #1db17838;
+  --heading3-color-dark: #0f5c3e;
+  --heading3-color-bg: #1db17809;
   --heading4-color: #ae2aae;
   --heading4-color-faint: #ae2aae38;
+  --heading4-color-dark: #5c165c;
+  --heading4-color-bg: #ae2aae09;
   --heading-preview-prefix: "❚ ";
+  --custom-accent: #4495ff;
+}
+
+.side-dock-ribbon-action, .workspace-tab-header-inner, .side-dock-ribbon-action:hover {
+  color: var(--custom-accent);
+}
+
+.workspace-tab-header-container {
+  background-color: #88888811;
 }
 
 .tree-item {
@@ -19,7 +36,7 @@
 }
 
 .workspace-leaf.mod-active .view-header {
-  border-bottom: 2px solid #449fff88;
+  border-bottom: 2px solid #88888888;
 }
 
 .view-header {
@@ -68,19 +85,35 @@
 }
 
 .HyperMD-header-1, .markdown-preview-view h1 {
-  border-bottom: 1px solid var(--heading1-color-faint) !important;
+  border-top: 1px solid var(--heading1-color-faint) !important;
+  /* color: var(--heading1-color-dark) !important; */
+  background-color: var(--heading1-color-bg) !important;
+  padding-left: 5px;
+  padding-top: 1px !important;
 }
 
 .HyperMD-header-2, .markdown-preview-view h2 {
-  border-bottom: 1px solid var(--heading2-color-faint) !important;
+  border-top: 1px solid var(--heading2-color-faint) !important;
+  /* color: var(--heading2-color-dark) !important; */
+  background-color: var(--heading2-color-bg) !important;
+  padding-left: 5px;
+  padding-top: 1px !important;
 }
 
 .HyperMD-header-3, .markdown-preview-view h3 {
-  border-bottom: 1px solid var(--heading3-color-faint) !important;
+  border-top: 1px solid var(--heading3-color-faint) !important;
+  /* color: var(--heading3-color-dark) !important; */
+  background-color: var(--heading3-color-bg) !important;
+  padding-left: 5px;
+  padding-top: 1px !important;
 }
 
 .HyperMD-header-4, .markdown-preview-view h4 {
-  border-bottom: 1px solid var(--heading4-color-faint) !important;
+  border-top: 1px solid var(--heading4-color-faint) !important;
+  /* color: var(--heading4-color-dark) !important; */
+  background-color: var(--heading4-color-bg) !important;
+  padding-left: 5px;
+  padding-top: 1px !important;
 }
 
 .markdown-preview-view h1:before {
@@ -132,6 +165,11 @@
   margin-bottom: 2px;
   border-width: 2px;
   border-color: #2684be88;
+}
+
+.markdown-preview-view .task-list-item-checkbox:hover {
+  border-color: #2684be;
+  background-color: #2684be44;
 }
 
 span.cm-list-1 {

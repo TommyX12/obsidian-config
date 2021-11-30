@@ -30,7 +30,7 @@
       "modifiers": [
         "Mod"
       ],
-      "key": "["
+      "key": ","
     }
   ],
   "app:go-forward": [
@@ -38,7 +38,36 @@
       "modifiers": [
         "Mod"
       ],
-      "key": "]"
+      "key": "."
+    }
+  ],
+  "app:open-settings": [],
+  "obsidian-outliner:indent-list": [
+    {
+      "modifiers": [
+        "Ctrl",
+        "Shift"
+      ],
+      "key": "L"
+    },
+    {
+      "modifiers": [],
+      "key": "Tab"
+    }
+  ],
+  "obsidian-outliner:outdent-list": [
+    {
+      "modifiers": [
+        "Ctrl",
+        "Shift"
+      ],
+      "key": "H"
+    },
+    {
+      "modifiers": [
+        "Shift"
+      ],
+      "key": "Tab"
     }
   ]
 }
