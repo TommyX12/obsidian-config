@@ -6734,7 +6734,9 @@ var DateSuggest = /** @class */ (function (_super) {
             return false;
         });
         if (_this.plugin.settings.autosuggestToggleLink) {
-            _this.setInstructions([{ command: "Shift", purpose: "Keep text as alias" }]);
+            if (typeof _this.setInstructions === 'function') {
+                _this.setInstructions([{ command: "Shift", purpose: "Keep text as alias" }]);
+            }
         }
         return _this;
     }

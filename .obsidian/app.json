@@ -8,5 +8,6 @@
   "showFrontmatter": false,
   "showUnsupportedFiles": true,
   "strictLineBreaks": false,
-  "alwaysUpdateLinks": false
+  "alwaysUpdateLinks": false,
+  "legacyEditor": true
 }

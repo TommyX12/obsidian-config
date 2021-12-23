@@ -20,7 +20,37 @@
   --heading4-color-dark: #5c165c;
   --heading4-color-bg: #ae2aae09;
   --heading-preview-prefix: "❚ ";
+  --accent-s: 70%;
+  --accent-l: 40%;
   --custom-accent: #4495ff;
+  --code-text-color: #04709a;
+}
+
+.markdown-preview-view pre,
+.markdown-preview-view code,
+.cm-s-obsidian span.cm-inline-code,
+.cm-s-obsidian .HyperMD-codeblock {
+  font-size: 12px;
+}
+
+.markdown-preview-view code {
+  font-size: 12px;
+}
+
+.cm-s-obsidian span.cm-inline-code {
+  font-size: 90%;
+}
+
+code[class*="language-"], pre[class*="language-"], .markdown-preview-view pre {
+  line-height: 1.2 !important;
+}
+
+.theme-light, .theme-dark {
+  --text-code: var(--code-text-color);
+}
+
+span.cm-inline-code, .HyperMD-codeblock {
+  color: var(--code-text-color) !important;
 }
 
 .side-dock-ribbon-action, .workspace-tab-header-inner, .side-dock-ribbon-action:hover {
@@ -158,7 +188,7 @@
   margin: 0 0 5px 0;
 }
 
-.markdown-preview-view .task-list-item-checkbox {
+.markdown-preview-view .task-list-item-checkbox, .task-list-item-checkbox {
   width: 15px;
   height: 15px;
   margin-top: 2px;
@@ -167,7 +197,7 @@
   border-color: #2684be88;
 }
 
-.markdown-preview-view .task-list-item-checkbox:hover {
+.markdown-preview-view .task-list-item-checkbox:hover, .task-list-item-checkbox:hover {
   border-color: #2684be;
   background-color: #2684be44;
 }
