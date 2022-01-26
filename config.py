@@ -11,3 +11,7 @@ FILES_TO_COPY = [
     '.obsidian/themes',
     '.obsidian.vimrc',
 ]
+
+FILES_TO_EXCLUDE = [
+    '.obsidian/plugins/obsidian-cfs',
+]

@@ -35,6 +35,8 @@
 
 .markdown-preview-view code {
   font-size: 12px;
+  padding-left: 3px;
+  padding-right: 3px;
 }
 
 .cm-s-obsidian span.cm-inline-code {

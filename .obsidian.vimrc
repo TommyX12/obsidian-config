@@ -188,6 +188,7 @@ nmap <Space>jo :followlink
 
 exmap switcheropen obcommand switcher:open
 nmap <Space>n :switcheropen
+nmap <Space>if :switcheropen
 
 exmap fileexploreropen obcommand file-explorer:open
 nmap <Space>jf :fileexploreropen
@@ -209,6 +210,9 @@ nmap <Space>x :commandpalette
 
 exmap globalsearch obcommand global-search:open
 nmap <Space>id :globalsearch
+
+exmap switchersymbols obcommand darlal-switcher-plus:switcher-plus:open-symbols
+nmap <Space>is :switchersymbols
 
 map <Space>f /
 
