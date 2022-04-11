@@ -117,7 +117,7 @@ span.cm-inline-code, .HyperMD-codeblock {
 }
 
 .HyperMD-header-1, .markdown-preview-view h1 {
-  border-top: 1px solid var(--heading1-color-faint) !important;
+  border-bottom: 1px solid var(--heading1-color-faint) !important;
   /* color: var(--heading1-color-dark) !important; */
   background-color: var(--heading1-color-bg) !important;
   padding-left: 5px;
@@ -125,7 +125,7 @@ span.cm-inline-code, .HyperMD-codeblock {
 }
 
 .HyperMD-header-2, .markdown-preview-view h2 {
-  border-top: 1px solid var(--heading2-color-faint) !important;
+  border-bottom: 1px solid var(--heading2-color-faint) !important;
   /* color: var(--heading2-color-dark) !important; */
   background-color: var(--heading2-color-bg) !important;
   padding-left: 5px;
@@ -133,7 +133,7 @@ span.cm-inline-code, .HyperMD-codeblock {
 }
 
 .HyperMD-header-3, .markdown-preview-view h3 {
-  border-top: 1px solid var(--heading3-color-faint) !important;
+  border-bottom: 1px solid var(--heading3-color-faint) !important;
   /* color: var(--heading3-color-dark) !important; */
   background-color: var(--heading3-color-bg) !important;
   padding-left: 5px;
@@ -141,7 +141,7 @@ span.cm-inline-code, .HyperMD-codeblock {
 }
 
 .HyperMD-header-4, .markdown-preview-view h4 {
-  border-top: 1px solid var(--heading4-color-faint) !important;
+  border-bottom: 1px solid var(--heading4-color-faint) !important;
   /* color: var(--heading4-color-dark) !important; */
   background-color: var(--heading4-color-bg) !important;
   padding-left: 5px;
