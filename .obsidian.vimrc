@@ -249,3 +249,6 @@ exmap surroundstar surround * *
 vmap <Space>s* :surroundstar
 exmap surroundcode surround ` `
 vmap <Space>s` :surroundcode
+
+nmap <C-j> <C-d>zz
+nmap <C-k> <C-u>zz

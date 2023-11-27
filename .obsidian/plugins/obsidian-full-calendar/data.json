@@ -1,0 +1,37 @@
+{
+  "calendarSources": [
+    {
+      "type": "local",
+      "color": "#e2ffe0",
+      "directory": "events/reminder"
+    },
+    {
+      "type": "local",
+      "color": "#fff0b8",
+      "directory": "events/small"
+    },
+    {
+      "type": "local",
+      "color": "#ffadad",
+      "directory": "events/medium"
+    },
+    {
+      "type": "local",
+      "color": "#ad77e4",
+      "directory": "events/large"
+    },
+    {
+      "type": "local",
+      "color": "#636363",
+      "directory": "events/fixed"
+    }
+  ],
+  "defaultCalendar": 0,
+  "recursiveLocal": false,
+  "firstDay": 0,
+  "initialView": {
+    "desktop": "dayGridMonth",
+    "mobile": "timeGrid3Days"
+  },
+  "timeFormat24h": false
+}

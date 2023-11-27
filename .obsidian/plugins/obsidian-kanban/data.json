@@ -1,0 +1,6 @@
+{
+  "show-relative-date": true,
+  "lane-width": 225,
+  "show-checkboxes": false,
+  "new-card-insertion-method": "prepend-compact"
+}

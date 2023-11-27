@@ -1,6 +1,12 @@
 :root {
   --h1:1.25em;
   --h2:1.125em;
+  --h1-weight: 600;
+  --h2-weight: 600;
+  --h3-weight: 500;
+  --h4-weight: 500;
+  --h5-weight: 400;
+  --h6-weight: 400;
   --font-normal: 14px;
   --font-small: 12px;
   --heading1-color: #660ace;
@@ -24,6 +30,106 @@
   --accent-l: 40%;
   --custom-accent: #4495ff;
   --code-text-color: #04709a;
+}
+
+.mermaid svg {
+  max-width: 100%;
+  height: auto;
+}
+
+.mod-right-split .markdown-preview-view {
+  --file-margins: 0;
+}
+
+.dv-due-chip {
+  width: 10px;
+  height: 10px;
+  border-radius: 2px;
+  background: #658cd4;
+}
+
+.dv-due-chip-inactive {
+  width: 10px;
+  height: 10px;
+  border-radius: 2px;
+  background: #888888;
+}
+
+.dv-due-chip-overdue {
+  width: 10px;
+  height: 10px;
+  border-radius: 2px;
+  background: #d46565;
+}
+
+.dv-due-chip-near {
+  width: 10px;
+  height: 10px;
+  border-radius: 2px;
+  /* width: 4px;
+  height: 20px;
+  border-radius: 2px; */
+  background: #cdd465;
+}
+
+.dv-active-chip {
+  width: 10px;
+  height: 10px;
+  border-radius: 2px;
+  background: #30d34b;
+}
+
+.dv-title-soft-deadline {
+  padding: 1px 3px;
+  border-radius: 2px;
+  background: #ff00ff20;
+}
+
+.dv-title-reminder {
+  padding: 1px 3px;
+  border-radius: 2px;
+  background: #0088ff20;
+}
+
+.dv-title-deadline {
+  padding: 1px 3px;
+  border-radius: 2px;
+  background: #ff000020;
+}
+
+.dv-title {
+  padding: 1px 5px;
+  border-radius: 2px;
+  background: rgba(25, 93, 196, 0.048);
+  border: 1px solid #88888831;
+}
+
+.dv-title-inactive {
+  opacity: 0.5;
+}
+
+.theme-light {
+  --text-highlight-bg: #28d33131;
+}
+
+#calendar-container {
+  --color-background-weekend: #88888818;
+}
+
+#calendar-container tr td {
+  border-radius: 0 !important;
+}
+
+.fc {
+  padding: 15px 25px;
+}
+
+.fc-header-toolbar {
+  margin-bottom: 10px !important;
+}
+
+.fc-day-today {
+  background-color: #5c99bd10 !important;
 }
 
 .markdown-preview-view pre,
@@ -122,6 +228,8 @@ span.cm-inline-code, .HyperMD-codeblock {
   background-color: var(--heading1-color-bg) !important;
   padding-left: 5px;
   padding-top: 1px !important;
+  margin-top: 25px;
+  margin-bottom: 10px;
 }
 
 .HyperMD-header-2, .markdown-preview-view h2 {
@@ -130,6 +238,8 @@ span.cm-inline-code, .HyperMD-codeblock {
   background-color: var(--heading2-color-bg) !important;
   padding-left: 5px;
   padding-top: 1px !important;
+  margin-top: 20px;
+  margin-bottom: 10px;
 }
 
 .HyperMD-header-3, .markdown-preview-view h3 {
@@ -138,6 +248,8 @@ span.cm-inline-code, .HyperMD-codeblock {
   background-color: var(--heading3-color-bg) !important;
   padding-left: 5px;
   padding-top: 1px !important;
+  margin-top: 15px;
+  margin-bottom: 10px;
 }
 
 .HyperMD-header-4, .markdown-preview-view h4 {
@@ -146,6 +258,31 @@ span.cm-inline-code, .HyperMD-codeblock {
   background-color: var(--heading4-color-bg) !important;
   padding-left: 5px;
   padding-top: 1px !important;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.dataview.inline-field {
+  padding: 0 !important;
+  outline: 1px solid #88888844;
+  opacity: 0.9;
+}
+
+.dataview.inline-field-key {
+  font-family: var(--font-text) !important;
+  padding-left: 5px !important;
+  padding-right: 5px !important;
+  color:rgb(29, 122, 165) !important;
+}
+
+.dataview.inline-field-value {
+  font-family: var(--font-text) !important;
+  padding-left: 0 !important;
+  padding-right: 5px !important;
+}
+
+.cm-s-obsidian .cm-header-4, .markdown-preview-view h4 {
+  font-variant: normal;
 }
 
 .markdown-preview-view h1:before {
@@ -218,4 +355,13 @@ span.cm-list-3 {
 
 .task-list-item.is-checked {
   color: #b4b4b4 !important;
+}
+
+.markdown-preview-view ul > li.task-list-item {
+  line-height: 1.5;
+}
+
+.list-collapse-indicator + input {
+  opacity: 0.75;
+  border-color: #88888888 !important;
 }

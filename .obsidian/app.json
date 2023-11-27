@@ -8,6 +8,9 @@
   "showFrontmatter": false,
   "showUnsupportedFiles": true,
   "strictLineBreaks": false,
-  "alwaysUpdateLinks": false,
-  "legacyEditor": true
+  "alwaysUpdateLinks": true,
+  "legacyEditor": false,
+  "livePreview": false,
+  "showInlineTitle": false,
+  "tabSize": 4
 }
